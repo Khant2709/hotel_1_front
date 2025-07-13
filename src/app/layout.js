@@ -17,7 +17,6 @@ import {PreloaderProvider} from "../hooks/usePreloader";
 
 const inter = Inter({subsets: ["latin"]});
 
-
 export const metadata = {
   site_name: "Отель Шикарный Вид",
   generator: "Next.js", // Информация о генераторе, указывает на то, что сайт создан с помощью Next.js
