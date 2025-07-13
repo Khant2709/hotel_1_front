@@ -31,9 +31,9 @@ export const makeRequest = async (
     }
 
     // console.log(`[Запрос]: ${method} ${url} (cacheMaxAge: ${cacheMaxAge || 'нет'})`);
-    const startTime = Date.now();
+    // const startTime = Date.now();
     const response = await axiosClient(config);
-    const endTime = Date.now();
+    // const endTime = Date.now();
     // console.log(`[Ответ]: ${method} ${url} - ${endTime - startTime}мс, данные:`);
 
     return {data: response.data, status: response.status};
